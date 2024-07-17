@@ -1,4 +1,3 @@
-import Chart from "./components/Charts/Chart";
 import CountPerMonthChart from "./components/Charts/CountPerMonthChart";
 import CountPerWeekLasMonthChart from "./components/Charts/CountPerWeekLasMonthChart";
 import TweetsTable from "./components/TweetsTable/TweetsTable";
