@@ -1,8 +1,18 @@
-# React + Vite
+## Vk App Frontend
+### Frontend del proyecto [Vk App Backend](https://github.com/adrianfervenzarodriguez/vk-app-backend)
+### Instalación local
+#### Clonar proyecto e instalar dependencias
+```bash
+git clone https://github.com/adrianfervenzarodriguez/vk-app-frontend.git
+cd vk-app-frontend
+npm install
+```
+### Copiar el contenido del fichero .env.example en el fichero .env y sobreescribir las siguientes variables
+```bash
+VITE_BACKEND_URL=http://<local-url>/api
+```
+### Iniciar el servidor local
+```bash
+npm run dev
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
