@@ -15,4 +15,7 @@ VITE_BACKEND_URL=http://<local-url>/api
 ```bash
 npm run dev
 ```
+### Captura del proyecto corriendo en local
+![image](https://github.com/user-attachments/assets/57722dc4-122d-47a9-a0ce-7628a80225bc)
+
 
