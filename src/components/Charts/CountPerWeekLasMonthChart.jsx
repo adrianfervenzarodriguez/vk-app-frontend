@@ -9,7 +9,6 @@ const CountPerWeekLasMonthChart = () => {
         const fetchData = async () => {
             const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/tweets/hashtags/farina/charts/count_per_week`)
             const chartData = await response.json()
-            console.log(chartData)
             setOptions({
                 title : {text : 'Total semanal último mes'},
                 subtitle : {text : 'Datos del mes actual'},

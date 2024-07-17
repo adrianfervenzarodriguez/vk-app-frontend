@@ -9,7 +9,6 @@ const CountPerMonthChart = () => {
         const fetchData = async () => {
             const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/tweets/hashtags/farina/charts/count_per_month`)
             const chartData = await response.json()
-            console.log(chartData)
             setOptions({
                 title : {text : 'Total mensual'},
                 data : chartData,
